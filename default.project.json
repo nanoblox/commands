@@ -15,7 +15,7 @@
                 "Extensions": {
                     "$className": "Configuration",
                     "Commands": {
-                        "$path": "src/Commands"
+                        "$path": "src/MainModule/Commands"
                     }
                 }
             }
