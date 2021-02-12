@@ -1,7 +1,7 @@
 local main = require(game.Nanoblox)
 local Command =	{}
 
-print("HELLLOOOOO")
+
 
 Command.name = script.Name -- the name used to display and execute the command
 Command.aliases	= {} -- additional names (typically shorthand) which activate the command

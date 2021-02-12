@@ -1,0 +1,24 @@
+{
+    "name": "Nanoblox",
+    "tree": {
+        "$className": "DataModel",
+        "HttpService": {
+            "$className": "HttpService",
+            "$properties": {
+            "HttpEnabled": true
+            }
+        },
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+            "Nanoblox": {
+                "$className": "Folder",
+                "Extensions": {
+                    "$className": "Configuration",
+                    "Commands": {
+                        "$path": "src/Commands"
+                    }
+                }
+            }
+        }
+    }
+}
