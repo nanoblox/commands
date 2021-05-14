@@ -4,7 +4,7 @@ local Command =	{}
 
 
 Command.name = script.Name -- the name used to display and execute the command
-Command.aliases	= {"CiewCommands"} -- additional names (typically shorthand) which activate the command
+Command.aliases	= {"ViewCommands"} -- additional names (typically shorthand) which activate the command
 Command.description = "" -- a brief description which appears in the menu
 Command.contributors = {} -- the names or IDs or people who developed this command
 Command.opposites = {} -- the names to undo (revoke) the command, e.g. 'invisible' would have 'visible'
